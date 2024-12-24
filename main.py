@@ -29,11 +29,9 @@ async def installDriver():
         prefs = {"download.default_directory": downloadFolder}
         options.add_experimental_option("prefs", prefs)
 
-        # Отключаем headless режим, чтобы можно было видеть браузер.
-        # Для обычного использования можно оставить это закомментированным.
-        options.add_argument("--headless") 
+        options.add_argument("--headless") # можно закомментировать, чтобы видеть браузер
 
-        options.add_argument("--disable-gpu")  # Некоторые сайты могут блокировать headless браузеры по этой причине
+        options.add_argument("--disable-gpu")=
         options.add_argument("--no-sandbox")
         driver = webdriver.Chrome(options=options)
 
