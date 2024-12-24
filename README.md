@@ -7,7 +7,7 @@ Automated script for downloading and installing recommended maps from Tillerino.
 3. Download the `Cookie-Editor` extension
 4. Go to the [osu!](https://osu.ppy.sh/) website and copy the `cookieValue` from `Cookie-Editor`
 5. Paste the `cookieValue` into line `15`
-6. Open `cmd.exe` in the folder with the script (Example: `cmd.exe` -> `D:` `cd D:\x\OsuGrabber`)
+6. Open `cmd.exe` in the folder with the script (Example: `cmd.exe` -> `D:` -> `cd D:\x\OsuGrabber`)
 7. Enter `pip install -r requirements.txt`
 8. Enter `python main.py`
 9. Enter the desired number of maps
