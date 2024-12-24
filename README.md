@@ -3,7 +3,7 @@ Automated script for downloading and installing recommended maps from Tillerino.
 
 ## EN
 1. Download and install [python 3.11.8](https://www.python.org/downloads/)
-2. Download and unpack the [repository](https://github.com/methamphetaminelab/OsuGrabber)
+2. Download and unzip the [repository](https://github.com/methamphetaminelab/OsuGrabber)
 3. Download the `Cookie-Editor` extension
 4. Go to the [osu!](https://osu.ppy.sh/) website and copy the `cookieValue` from `Cookie-Editor`
 5. Paste the `cookieValue` into line `15`
