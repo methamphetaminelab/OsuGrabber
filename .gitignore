@@ -1,0 +1,5 @@
+.vscode/
+*.osz
+*.crdownload
+__pycache__/
+maps/

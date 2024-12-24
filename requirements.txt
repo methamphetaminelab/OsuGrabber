@@ -1,0 +1,4 @@
+chromedriver_autoinstaller==0.6.4
+selenium==4.23.1
+asyncio==3.4.3
+loguru==0.7.3
