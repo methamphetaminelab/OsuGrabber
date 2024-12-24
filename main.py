@@ -28,7 +28,7 @@ async def installDriver():
         options = webdriver.ChromeOptions()
         prefs = {"download.default_directory": downloadFolder}
         options.add_experimental_option("prefs", prefs)
-        #options.add_argument("--headless")
+        options.add_argument("--headless")
 
         driver = webdriver.Chrome(options=options)
         logger.info("ChromeDriver installed")
@@ -176,5 +176,8 @@ async def main():
     driver.get("https://osu.ppy.sh/community/chat?channel_id=32359962")
 
 if __name__ == "__main__":
+    if cookieValue == "COOKIE_VALUE":
+        logger.error("Cookie value not set")
+        sys.exit(1)
     asyncio.run(installDriver())
     asyncio.run(main())
